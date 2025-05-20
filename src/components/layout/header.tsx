@@ -55,7 +55,7 @@ const menuItems = [
   //     },
   //   ],
   // },
-  { href: "/services", label: "Dịch vụ" },
+  { href: "/", label: "Dịch vụ" },
   // { href: "/departments", label: "Departments" },
   // { href: "/timetable", label: "Timetable" },
   // {
@@ -73,7 +73,7 @@ const menuItems = [
   //   ],
   // },
   {
-    href: "/blog-404",
+    href: "/",
     label: "Bài viết",
     // submenu: [
     //   {
@@ -87,7 +87,7 @@ const menuItems = [
     //   },
     // ],
   },
-  { href: "/contacts", label: "Liên hệ" },
+  { href: "/", label: "Liên hệ" },
   { href: "/about", label: "Về chúng tôi" },
 ];
 
@@ -334,7 +334,7 @@ export function Header() {
                     ))}
                   </div>
 
-                  <div className="mt-6 space-y-4">
+                  {/* <div className="mt-6 space-y-4">
                     <div className="flex items-start space-x-3">
                       <Phone className="h-5 w-5 text-[hsl(var(--primary))] mt-1" />
                       <div>
@@ -349,7 +349,7 @@ export function Header() {
                         <p className="text-sm">San Diego, CA 94117-1080 USA</p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </SheetContent>
             </Sheet>

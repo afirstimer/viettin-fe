@@ -78,7 +78,7 @@ export function InfoBlocks() {
               <h3 className="text-lg font-bold uppercase">Tư vấn miễn phí</h3>
             </div>
             <div className="flex-grow">
-              <p className="text-xl font-bold mb-1">1-800-1234-567</p>
+              <p className="text-xl font-bold mb-1">Đang cập nhật</p>
               <p className="text-sm mb-4">Hotline tư vấn thiết bị</p>
             </div>
             <Link
