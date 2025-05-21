@@ -28,6 +28,9 @@ const asap = Asap({
 export const metadata: Metadata = {
   title: "VIET TIN MEDIC",
   description: "Công ty cổ phần xuất nhập khẩu thương mại dịch vụ thiết bị y tế Việt Tín",
+  icons: {
+    icon: "/images/favicon.ico",
+  }
 };
 
 export default function RootLayout({
